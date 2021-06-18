@@ -1,0 +1,168 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-image: linear-gradient(rgb(112, 108, 97), white);
+}
+header{
+  background-color: salmon;
+}
+.frase{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  background-image: linear-gradient(#2B8075, #F48C00);
+  color: white;
+}
+.cordillera{
+height: 500px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+}  
+
+.historia__titulo--tamanio{
+font-size: 60px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.historia__titulo--color{
+color: #802717;
+}
+.historia__contenido--tamanio{
+font-size: 30px;
+}
+.historia__contenido--color{
+color: rgb(85, 64, 64);
+}
+.historia__imagenes{
+display: flex;
+justify-content: space-between;
+}
+.historia__imagenes--tamanio{
+width: 30%;
+padding: 10px;
+}
+.modifMenu{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.img-fluid{
+  max-width: 50px;
+  height: 50px;
+}
+.imgFluid{
+  max-width: 100%;
+  height: 700px;
+}
+
+.pieDePagina{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+.segundaFrase{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  background-color: #995c5c;
+  margin: 5% 30%;
+  text-align: center;
+}
+.terceraFrase{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  background-color: #d4b97e;
+  margin: 5%;
+}
+.flexubicacionFrase{
+  margin: 5%;
+  display: flex;
+}
+@media screen and (max-width: 480px){
+  body{
+      background-image: linear-gradient(rgb(219, 183, 82), white);
+  }
+  .frase{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin-top: 20%;
+      margin-bottom: 10%;
+      background-image: linear-gradient(#3b0436, #104179);
+      color: white;
+  }
+}
+.ubicacionFrase__modif--color {
+  color: #c9b6b6;
+  background-image: linear-gradient(#bd1818, #6c6c8f); }
+
+.aos__entradas {
+  color: black;
+  background-color: #995c5c; }
+
+.aos__platosPrincipales {
+  color: grey;
+  background-color: #27275e; }
+
+.aos__postres {
+  color: black;
+  background-color: #c42727; }
+
+.ubicacionFrase {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 30%; }
+
+.aos {
+  margin: 5%; }
+  .aos__comun {
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    justify-items: center; }
+  .aos__entradas--titulo {
+    padding: 19%;
+    text-align: center;
+    display: flex;
+    border-radius: 25%; }
+  .aos__entradas--descripcion {
+    border-radius: 20%; }
+  .aos__entradas--precios {
+    border-radius: 25%; }
+  .aos__platosPrincipales--titulo {
+    padding: 12%;
+    text-align: center;
+    display: flex;
+    border-radius: 25%; }
+  .aos__platosPrincipales--descricpion {
+    border-radius: 20%; }
+  .aos__platosPrincipales--precios {
+    border-radius: 25%; }
+  .aos__postres--titulo {
+    padding: 12%;
+    text-align: center;
+    display: flex;
+    border-radius: 25%; }
+  .aos__postres--descripcion {
+    border-radius: 20%; }
+  .aos__postres--precios {
+    border-radius: 25%; }
+
+.ubicacionFrase__modif--font {
+  font-family: arial;
+  size: 25px; }

@@ -1,0 +1,61 @@
+.ubicacionFrase{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 30%;
+}
+
+.aos{
+    margin: 5%;
+    &__comun{
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    justify-items: center;
+    }
+    &__entradas{
+        &--titulo{
+            padding: 19%;
+            text-align: center;
+            display: flex;
+            border-radius: 25%
+        }
+        &--descripcion{
+            border-radius: 20%;
+        }
+        &--precios{
+            border-radius: 25%;
+        }
+    }
+    &__platosPrincipales{
+        &--titulo{
+            padding: 12%;
+            text-align: center;
+            display: flex;
+            border-radius: 25%;
+        }
+        &--descricpion{
+            border-radius: 20%;
+        }
+        &--precios{
+            border-radius: 25%
+        }
+    }
+    &__postres{
+        &--titulo{
+            padding: 12%;
+            text-align: center;
+            display: flex;
+         border-radius: 25%;
+        }
+        &--descripcion{
+            border-radius: 20%;
+        }
+        &--precios{
+            border-radius: 25%
+        }
+    }
+}
+
+
+

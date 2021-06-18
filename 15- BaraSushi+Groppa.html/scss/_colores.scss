@@ -1,0 +1,25 @@
+$rojo: rgb(201, 182, 182);
+$backfrase: rgb(189, 24, 24), rgb(108, 108, 143);
+$aoscolor: grey;
+$backaosentradas: rgb(153, 92, 92);
+$backaosppales: rgb(39, 39, 94);
+$backaospostres: rgb(196, 39, 39);
+
+
+
+.ubicacionFrase__modif--color{
+    color: $rojo;
+    background-image: linear-gradient($backfrase);
+}
+.aos__entradas{
+    color: black;
+    background-color: $backaosentradas;
+}
+.aos__platosPrincipales{
+    color: $aoscolor;
+    background-color: $backaosppales;
+}
+.aos__postres{
+    color: black;
+    background-color: $backaospostres;
+}
