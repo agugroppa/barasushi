@@ -90,6 +90,18 @@ padding: 10px;
   margin: 5%;
   display: flex;
 }
+.mapa2{
+  margin: 1%;
+}
+.sucursalesYdirecciones{
+  display: flex;
+  flex-direction: row;
+}
+.direcciones{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
 @media screen and (max-width: 480px){
   body{
       background-image: linear-gradient(rgb(219, 183, 82), white);
