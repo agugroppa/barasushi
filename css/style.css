@@ -47,7 +47,7 @@ display: flex;
 justify-content: space-between;
 }
 .historia__imagenes--tamanio{
-width: 30%;
+width: 24%;
 padding: 10px;
 }
 .modifMenu{
@@ -101,6 +101,15 @@ padding: 10px;
   display: flex;
   flex-direction: column;
   padding: 5%;
+}
+.formularioEimagen{
+  display: flex;
+}
+.imgContacto{
+  margin: 24%;
+  margin-left: 100%;
+  display: flex;
+  justify-content: end;
 }
 @media screen and (max-width: 480px){
   body{
