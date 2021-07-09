@@ -8,6 +8,7 @@ body{
 }
 header{
   background-color: salmon;
+  display: flex;
 }
 .frase{
   text-align: center;
@@ -20,6 +21,39 @@ header{
   background-image: linear-gradient(#2B8075, #F48C00);
   color: white;
 }
+.barraNav{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 150%;
+  margin: 0% 0% 0% 20%;
+}
+.navbar-toggler{
+  margin: 0% 150%;
+}
+.inicioNav{
+  padding: 0% 50%;
+}
+.nosotrosNav{
+  padding: 0% 50%;
+}
+.menuNav{
+  padding: 0% 50%;
+}
+.sucursalesNav{
+  padding: 0% 50%;
+}
+.contactoNav{
+  padding: 0% 50%;
+}
+.pieDePagina__letra{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin: 2%;
+}
 .cordillera{
 height: 500px;
 background-attachment: fixed;
@@ -28,7 +62,16 @@ background-repeat: no-repeat;
 background-size: cover;
 width: 100%;
 }  
-
+.piezasSushi{
+  display: flex;
+  margin: 3% 5%;
+  height: 1%;
+  justify-items: center;
+  justify-content: center;
+}
+.formularioEimagen{
+  text-align: center;
+}
 .historia__titulo--tamanio{
 font-size: 60px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -58,14 +101,29 @@ padding: 10px;
   align-items: center;
 }
 .img-fluid{
-  max-width: 50px;
-  height: 50px;
+  max-width: 30px;
+  height: 30px;
+  margin: 1%;
+}
+.hover{
+  cursor: pointer;
+}
+.imgCopy{
+  max-width: 20px;
+  height: 20px;
 }
 .imgFluid{
   max-width: 100%;
   height: 700px;
 }
-
+.footer__copyright{
+  display: flex;
+  padding: 2.5%;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
 .pieDePagina{
   display: flex;
   flex-direction: column;
@@ -101,6 +159,25 @@ padding: 10px;
   display: flex;
   flex-direction: column;
   padding: 5%;
+}
+.contactosForm{
+  padding-left: 10%;
+}
+.contacto{
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  margin: 1%;
+}
+.letra__formulario{
+  font-family: 'Permanent Marker', cursive;
+}
+.inicioForm{
+  text-align: center;
+}
+.imgSucursal{
+  display: flex;
+  margin: 1%;
+  padding-left: 10%;
 }
 .formularioEimagen{
   display: flex;
